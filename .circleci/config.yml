@@ -7,9 +7,9 @@ jobs:
       - checkout
       - run: echo "hello world" > output.txt
       - persist_to_workspace:
-        root: /tmp/workspace
-        paths:
-          - output.txt
+          root: /tmp/workspace
+          paths:
+            - output.txt
   print_output_file:
     docker:
       - image: circleci/node:13.8.0
