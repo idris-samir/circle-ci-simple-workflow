@@ -1,6 +1,6 @@
 version: 2.1
 
-command:
+commands:
   print_pipeline_id:
     description: "Prints the pipeline ID to the console"
     parameters:
