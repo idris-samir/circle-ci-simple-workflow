@@ -6,7 +6,6 @@ jobs:
     steps:
       - checkout
       - run: echo "hello world" > ~/output.txt
-      - run
       - persist_to_workspace:
           root: ~/
           paths:
